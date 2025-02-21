@@ -1,0 +1,62 @@
+# Build artifacts and binary files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Intermediate files
+*.idb
+*.pdb
+*.ipch
+*.ilk
+
+# Visual Studio-specific files
+.vscode/
+.vs/
+*.sdf
+*.suo
+*.ncb
+*.aps
+*.user
+*.filters
+
+# CMake build directory
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE project files (optional)
+*.code-workspace
+*.sln
+*.vcxproj*
+*.xcodeproj
+*.cbp
+*.dev
+*.project
+
+# vcpkg installed dependencies
+vcpkg_installed/
+
+# Log files and temporary files
+*.log
+*.tmp
+*.swp
+
+# Debugging files
+*.dmp
+*.stackdump
+
+# Git ignore for subdirectories
+**/bin/
+**/build/
+**/obj/
+
+# Ignore compiled Python files if using scripts
+*.pyc
+__pycache__/
