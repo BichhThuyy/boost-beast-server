@@ -60,3 +60,5 @@ vcpkg_installed/
 # Ignore compiled Python files if using scripts
 *.pyc
 __pycache__/
+boost_be.*
+x64/
